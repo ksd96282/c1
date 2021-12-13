@@ -179,23 +179,23 @@
 # print(tt)
 
 # ============================================================
-# # ■集合型(set) 重複する値×  順序を付ける× 数学的な演算〇
-# colors = {"blue", "red", "green", "yellow", "black"}    # setを生成
-# print(colors)
-# e = set()   # 空のsetを生成
-# print(e)
-# fruits = set({"orange", "apple", "grape", "peach", "pineapple", "banana"})  # set()でsetを生成(実はset()は不要)
+# ■集合型(set) 重複する値×  順序を付ける× 数学的な演算〇
+colors = {"blue", "red", "green", "yellow", "black"}    # setを生成
+print(colors)
+e = set()   # 空のsetを生成
+print(e)
+fruits = set({"orange", "apple", "grape", "peach", "pineapple", "banana"})  # set()でsetを生成(実はset()は不要)
 
-# clrs1 = {"blue", "red", "green", "yellow", "black"}
-# clrs2 = {"blue", "green", "black", "white", "purple", "brown"}
-# clrs1_2 = clrs1 - clrs2 # clrs1とclrs2の差分をclrs1_2に代入
-# clrs2_1 = clrs2 - clrs1 # clrs2とclrs1の差分をclrs2_1に代入
-# print(f"clrs1 - clrs2 = {clrs1_2}")
-# print(f"clrs2 - clrs1 = {clrs2_1}")
-# print("white" in clrs1)
-# print("white" in clrs2)
-#
-# clrs3 = clrs1 | clrs2   # clrs1 + clrs2
-# print(clrs3)
-# clrs4 = clrs1 & clrs2   # clrs1とclrs2の重複している要素
-# print(clrs4)
+clrs1 = {"blue", "red", "green", "yellow", "black"}
+clrs2 = {"blue", "green", "black", "white", "purple", "brown"}
+clrs1_2 = clrs1 - clrs2 # clrs1とclrs2の差分をclrs1_2に代入
+clrs2_1 = clrs2 - clrs1 # clrs2とclrs1の差分をclrs2_1に代入
+print(f"clrs1 - clrs2 = {clrs1_2}")
+print(f"clrs2 - clrs1 = {clrs2_1}")
+print("white" in clrs1)
+print("white" in clrs2)
+
+clrs3 = clrs1 | clrs2   # clrs1 + clrs2
+print(clrs3)
+clrs4 = clrs1 & clrs2   # clrs1とclrs2の重複している要素
+print(clrs4)
