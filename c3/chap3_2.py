@@ -39,9 +39,9 @@
 # }
 # for name in fruits_price.keys():  # dict.keys()で実行
 #     price = fruits_price[name]
-#     print(f"{name}は{price}円です")
+#     print(fi"{name}は{price}円です")
 # for name, price in fruits_price.items():  # dict.items()で実行
-#     print(f"{name}は{price}円です")
+#     print(fi"{name}は{price}円です")
 
 # # ###########################################
 # # 成績データを辞書型で定義
@@ -56,8 +56,8 @@
 # for point in records.values():
 #     sum_points += point
 # ave_points = round(sum_points / len(records))
-# print(f"合計点： {sum_points}")
-# print(f"平均点： {ave_points}")
+# print(fi"合計点： {sum_points}")
+# print(fi"平均点： {ave_points}")
 #
 # # 成績データの一覧と平均点との差を表示
 # fmt = "|{0:<10}|{1:>5}|{2:>5}|"

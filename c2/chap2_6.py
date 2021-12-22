@@ -3,7 +3,7 @@
 # energy = 10
 # while energy > 0:
 #     print("+ keep running")
-#     print(f"| energy = {energy}")
+#     print(fi"| energy = {energy}")
 #     energy -= 1 # energyを2消費する
 # else:
 #     print("└ stop.....")
@@ -15,7 +15,7 @@
 #     if tsubo == "" or float(tsubo) <= 0: break  # 入力が0以下か入力がなかった場合はbreak
 #     tsubo = float(tsubo)
 #     m2 = round(tsubo * 3.31, 1)
-#     print(f"{tsubo}坪は{m2}㎡です")
+#     print(fi"{tsubo}坪は{m2}㎡です")
 
 # =============================================
 # forで繰り返し構文 -p74
@@ -25,8 +25,8 @@
 # v = 0
 # for i in range(1, 11):
 #     v = v + i
-#     print(f"{i}を足すと{v}")
-# print(f'1から10を足すと...{v}')
+#     print(fi"{i}を足すと{v}")
+# print(fi'1から10を足すと...{v}')
 #
 # # 画面に300本の線を引く -p75
 # グラフィックライブラリを取り込む
@@ -53,7 +53,7 @@
 
 # # continue -p79
 # for i in range(5):
-#     print(f"i = {i}")
+#     print(fi"i = {i}")
 #     if i >= 3: continue
 #     print("- hello!")
 

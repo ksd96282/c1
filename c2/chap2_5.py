@@ -65,8 +65,8 @@
 # if bmi >= 30:
 #     result = "重度の肥満"
 #
-# print(f"BMI: {bmi}")
-# print(f"結果: {result}")
+# print(fi"BMI: {bmi}")
+# print(fi"結果: {result}")
 
 # ==============================================
 # a = True
@@ -98,8 +98,8 @@
 #           (year % 100 != 0)or\
 #           (year % 4 == 0)
 # if is_leap:
-#     print(f"{year}年はうるう年です")
+#     print(fi"{year}年はうるう年です")
 # else:
-#     print(f"{year}年はうるう年ではありません")
+#     print(fi"{year}年はうるう年ではありません")
 
 # ==============================================

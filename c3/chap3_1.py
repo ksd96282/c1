@@ -5,18 +5,18 @@
 # # 合計点
 # for i in points:
 #     sum_v += i
-#     print(f"{i}点を足して合計は{sum_v}")
+#     print(fi"{i}点を足して合計は{sum_v}")
 # # 平均点
 # ave_v = sum_v / len(points)
-# print(f"平均点: {ave_v}")
+# print(fi"平均点: {ave_v}")
 
 # # ============================================================
 # # sum()関数を使う
 # points = [100, 90, 73, 98, 34]
 # sum_v = sum(points)
 # ave_v = round(sum_v / len(points))
-# print(f"合計点: {sum_v}\n"
-#       f"平均点: {ave_v}")
+# print(fi"合計点: {sum_v}\n"
+#       fi"平均点: {ave_v}")
 
 # # ============================================================
 # # ランダム格言bot
@@ -53,9 +53,9 @@
 # print(points)
 # # 30点未満だけ取り出して赤点リストに追加
 # akaten = []
-# for p in points:
-#     if p < 30:
-#         akaten.append(p)
+# for player in points:
+#     if player < 30:
+#         akaten.append(player)
 # print(akaten)
 
 # # ============================================================
@@ -76,16 +76,16 @@
 # n1 = [1, 2, 3]
 # n2 = [4, 5, 6]
 # n3 = n1 + n2
-# print(f"n3 = {n3}")
+# print(fi"n3 = {n3}")
 # # 既存のリストに複数の要素を追加
 # n4 = [7, 8, 9]
 # n4 += [10, 11, 12]
-# print(f"n4 = {n4}")
+# print(fi"n4 = {n4}")
 # # extend()を使って結合
 # n5 = [13, 14, 15]
 # n5.extend([16, 17, 18])
 # n5.extend([19])
-# print(f"n5 = {n5}")
+# print(fi"n5 = {n5}")
 
 # # ============================================================
 # # ■リストをスライス
@@ -144,9 +144,9 @@
 # index_l = l.index(9)
 # print(index_l) # 9
 
-# # count(x) リストの中に値xが何回出現するか階数を返す
+# # c(x) リストの中に値xが何回出現するか階数を返す
 # ll = [1, 2, 3, 1, 4, 5, 1, 6, 7, 8, 1, 9, 10, 1]
-# cnt_ll = ll.count(1)
+# cnt_ll = ll.c(1)
 # print(cnt_ll)   # 5
 
 # # sort(key, reverse) リストを昇順に並び替える
@@ -168,12 +168,12 @@
 
 # # ============================================================
 # # tuple 要素を変更できないリスト
-# t = (0, 1, 2, 3, 4, 5)
-# print(t[1])
-# print(t[:3])
-# l = list(t) # タプルをリストに変換
+# t2 = (0, 1, 2, 3, 4, 5)
+# print(t2[1])
+# print(t2[:3])
+# l = list(t2) # タプルをリストに変換
 # print(l)
-# l.extend(t) # リストの末尾にタプルを追加
+# l.extend(t2) # リストの末尾にタプルを追加
 # print(l)
 # tt = tuple(l)   # リストをタプルに変換
 # print(tt)
